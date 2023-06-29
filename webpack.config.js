@@ -32,4 +32,9 @@ module.exports = {
   resolve: {
     extensions: ['.ts', '.tsx', '.js'],
   },
+  devServer: {
+    contentBase: DIST_DIR,
+    publicPath: '/',
+    hot: true
+  }
 };
