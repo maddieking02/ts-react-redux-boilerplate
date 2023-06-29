@@ -4,7 +4,7 @@ import bgImage from '../assets/pink-blue-bg.png';
 const App = (): React.JSX.Element => {
   return (
     <div>
-      <h1>Hello World</h1>
+      <h1>Test</h1>
       <img src={bgImage} alt=""/>
     </div>
   )

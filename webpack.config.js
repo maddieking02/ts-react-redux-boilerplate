@@ -33,8 +33,10 @@ module.exports = {
     extensions: ['.ts', '.tsx', '.js'],
   },
   devServer: {
-    contentBase: DIST_DIR,
-    publicPath: '/',
-    hot: true
+    static: {
+      directory: DIST_DIR,
+    },
+    port: 8080,
+    open: true
   }
 };
